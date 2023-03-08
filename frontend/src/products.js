@@ -2,7 +2,7 @@ const products = [
   {
     _id: "1",
     name: "Airepods Wireless",
-    image: "/images/airpod.jpg",
+    image: "/images/airpods.jpg",
     description:
       "A LONG DESCRIPTION ABOUT your airpods lol lollololollolololol",
     brand: "Apple",
@@ -65,3 +65,5 @@ const products = [
     numReviews: 4,
   },
 ];
+
+export default products;
