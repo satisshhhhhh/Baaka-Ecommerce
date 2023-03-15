@@ -66,7 +66,4 @@ const products = [
   },
 ];
 
-// Below one is ES module
-// export default products
-
-module.exports = products;
+export default products;
