@@ -26,7 +26,7 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "2",
+    _id: "3",
     name: "Iphone 11 pro 256GB Memory",
     image: "/images/phone.jpg",
     description:
@@ -39,9 +39,9 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "2",
-    name: "Iphone 11 pro 256GB Memory",
-    image: "/images/phone.jpg",
+    _id: "4",
+    name: "Camera",
+    image: "/images/camera.jpg",
     description:
       "A LONG DESCRIPTION ABOUT your iphoneeeee lol lollololollolololol",
     brand: "Apple",
@@ -52,9 +52,9 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "2",
-    name: "Iphone 11 pro 256GB Memory",
-    image: "/images/phone.jpg",
+    _id: "5",
+    name: "Alexa",
+    image: "/images/alexa.jpg",
     description:
       "A LONG DESCRIPTION ABOUT your iphoneeeee lol lollololollolololol",
     brand: "Apple",
@@ -66,4 +66,7 @@ const products = [
   },
 ];
 
-export default products;
+// Below one is ES module
+// export default products
+
+module.exports = products;
