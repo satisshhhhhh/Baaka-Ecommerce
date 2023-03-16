@@ -14,9 +14,12 @@
   "author": "Satish Panchal",
   "license": "MIT",
   "dependencies": {
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2"
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
